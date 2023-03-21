@@ -1,0 +1,126 @@
+/* Main Styling */
+h2 {
+	font-size: 1.5rem;
+}
+
+/* Utility Classes */
+.display-1 {
+	font-size: 3rem;
+}
+
+.display-2 {
+	font-size: 1.5rem;
+}
+
+.display-3 {
+	font-size: 1rem;
+}
+
+/* Flex */
+.flex {
+	flex-direction: column;
+}
+
+/* Padding */
+.pt-1 {
+	padding-top: 80px;
+}
+
+.pt-2 {
+	padding-top: 40px;
+}
+
+.pt-3 {
+	padding-top: 20px;
+}
+
+.pb-1 {
+	padding-bottom: 80px;
+}
+
+.pb-2 {
+	padding-bottom: 40px;
+}
+
+.pb-3 {
+	padding-bottom: 20px;
+}
+
+.pr-1 {
+	padding-right: 0;
+}
+
+/* Width */
+.w-50,
+.w-60 {
+	width: 100%;
+}
+
+/* Button */
+.btn-outline {
+	padding: 5px;
+}
+
+/* Mainheader */
+#homeheader {
+	height: 100%;
+}
+
+/* Navbar */
+.navbar .container {
+	justify-content: center;
+}
+
+.navbar ul li {
+	padding: 30px 0;
+	font-size: 11px;
+}
+
+.navbar ul li:after {
+	content: '|';
+	padding: 0 5px;
+	color: #333639;
+}
+
+.navbar ul li:nth-child(6):after {
+	content: none;
+	padding: 0;
+}
+
+/* Preview */
+#preview img {
+	padding: 20px 20px;
+}
+#preview .txt-large {
+	font-size: 1rem;
+}
+
+#preview a {
+	font-size: 10px;
+}
+
+/* Download */
+.download .flex-box:nth-child(2) {
+	text-align: center;
+}
+
+/* Center Text */
+#showcase,
+#author,
+#download {
+	text-align: center;
+}
+
+/* Footer */
+#mainfooter {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#mainfooter .flex-box {
+	padding-bottom: 30px;
+}
+
+#mainfooter .footer-menu {
+	padding-left: 0;
+}
