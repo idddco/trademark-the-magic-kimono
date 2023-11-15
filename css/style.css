@@ -334,3 +334,23 @@ a {
 #mainfooter ul li a {
 	color: #fff;
 }
+
+/* Navbar Internal */
+.navbar-internal {
+	background: #208a8b;
+	padding-top: 5px;
+}
+
+.d-flex {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+.d-flex img {
+	height: 30px;
+}
+
+.d-flex li {
+	padding: 6px;
+}

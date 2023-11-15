@@ -124,3 +124,8 @@ h2 {
 #mainfooter .footer-menu {
 	padding-left: 0;
 }
+
+/* Navbar Internal */
+.d-flex {
+	justify-content: center;
+}
